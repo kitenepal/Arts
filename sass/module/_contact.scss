@@ -1,0 +1,24 @@
+.contact{
+	background-image: url("../img/contact_bg.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+  // &--content{
+  //   height: 350px;
+  //   border: 2px solid $primary-color;
+  //   color: $primary-color;
+  // }
+  .heading{
+		color: $primary-color;
+	}
+	form input, textarea{
+		border-radius: 0;
+	}
+}
+
+@media (max-width: 900px){
+	.contact{
+		form{
+			padding: 15px 0 15px 0;
+		}
+	}
+}
