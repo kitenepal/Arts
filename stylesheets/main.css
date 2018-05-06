@@ -1,0 +1,43 @@
+/* line 1, ../sass/base/_base.scss */
+body {
+  background-image: url("../img/bg.png");
+}
+
+/* line 4, ../sass/base/_base.scss */
+p {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* line 8, ../sass/base/_base.scss */
+.section-padding {
+  padding: 30px 0 30px 0;
+}
+
+/* line 11, ../sass/base/_base.scss */
+.heading {
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Concert One', cursive;
+}
+
+/* line 18, ../sass/base/_base.scss */
+.primary_btn {
+  background-color: #FFD700;
+  padding: 10px;
+  width: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #000;
+  transition: 0.5s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.25), 0 17px 50px 0 rgba(0, 0, 0, 0.25);
+  color: #222222;
+}
+
+/* line 30, ../sass/base/_base.scss */
+.primary_btn:hover {
+  background-color: #222222;
+  border-color: #FFD700;
+  color: #FFD700;
+  box-shadow: none;
+}
