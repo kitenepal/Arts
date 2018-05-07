@@ -211,3 +211,7 @@ body {
     color: #fff;
   }
 }
+/* line 2, ../sass/module/pages/_abt-page.scss */
+.about_page img {
+  margin: 10px 0;
+}
